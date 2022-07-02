@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "348944458844",
+    "firebase_url": "https://prix-pharma-crm-8892f.firebaseio.com",
+    "project_id": "prix-pharma-crm-8892f",
+    "storage_bucket": "prix-pharma-crm-8892f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348944458844:android:5302a591a7678031",
+        "android_client_info": {
+          "package_name": "com.prixpharma.crm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348944458844-m4opve9adfeopql665od1964cuusf8cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prixpharma.crm",
+            "certificate_hash": "f8b703f8e907a48f588760266bcb8c6c2e9d2b74"
+          }
+        },
+        {
+          "client_id": "348944458844-hq798o1thfkk1n83mb733h03nap3ke0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prixpharma.crm",
+            "certificate_hash": "44f4ee5c4d63a7319ac4d58938b7fb2e5bd2f2d6"
+          }
+        },
+        {
+          "client_id": "348944458844-tvkni413lqom61cfuik624ugked6j94l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpoa-s8gJsVyJVG4mLJw6p2HTxlaPZEDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348944458844-tvkni413lqom61cfuik624ugked6j94l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

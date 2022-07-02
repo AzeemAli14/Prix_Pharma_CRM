@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonStartVerification" type="id" />
+    <item name="buttonVerifyPhone" type="id" />
+    <item name="buttonResend" type="id" />
+    <item name="signOutButton" type="id" />
+</resources>

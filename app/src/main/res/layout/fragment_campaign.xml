@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CampaignFragment"
+    android:background="@color/backgroundColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:weightSum="11">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Information"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    />
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:textColor="#000"
+                    android:layout_marginTop="58dp"
+                    app:met_floatingLabelText="Product Name"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_underlineColor="@color/colorPrimary"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/type1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type"
+                    android:textColor="#000"
+                    android:layout_marginTop="138dp"
+                    app:met_floatingLabelText="Product Type"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_underlineColor="@color/colorPrimary"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Packaging"
+                    android:textColor="#000"
+                    android:layout_marginTop="219dp"
+                    app:met_floatingLabelText="Product Packaging"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_underlineColor="@color/colorPrimary"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sampling"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Yes"
+                    android:textSize="20dp"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginLeft="270dp"
+                    android:text="No"
+                    android:textSize="20sp"
+                    />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Sampling Name"
+                    android:textColor="#000"
+                    android:layout_marginTop="88dp"
+                    app:met_floatingLabelText="Sampling Name"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_underlineColor="@color/colorPrimary"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gifting"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Yes"
+                    android:textSize="20dp"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginLeft="270dp"
+                    android:text="No"
+                    android:textSize="20dp"
+                    />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gifting Name"
+                    android:textColor="#000"
+                    android:layout_marginTop="88dp"
+                    app:met_floatingLabelText="Gifting Name"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_underlineColor="@color/colorPrimary"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginRight="125dp"
+                android:background="@drawable/ripple"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
